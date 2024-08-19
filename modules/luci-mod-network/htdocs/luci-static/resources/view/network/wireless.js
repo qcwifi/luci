@@ -1704,7 +1704,7 @@ return view.extend({
 						E('div', { 'class': 'right' }, E('button', {
 							'class': 'cbi-button cbi-button-action important',
 							'click': L.bind(this.handleJoin, this, radioDev, res)
-						}, _('Join Network')))
+						}, _('加入网络')))
 					]);
 
 					res.stale = true;
@@ -1914,7 +1914,7 @@ return view.extend({
 						E('button', {
 							'class': 'cbi-button cbi-button-positive important',
 							'click': ui.createHandlerFn(this, 'handleJoinConfirm', radioDev, bss, m2)
-						}, _('Submit'))
+						}, _('提交'))
 					])
 				], 'cbi-modal').querySelector('[id="%s"] input[class][type]'.format((passphrase || name).cbid('_new_'))).focus();
 			}, this));

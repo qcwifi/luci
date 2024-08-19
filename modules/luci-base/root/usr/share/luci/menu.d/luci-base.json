@@ -80,7 +80,7 @@
 	},
 
 	"admin/logout": {
-		"title": "Logout",
+		"title": "退出",
 		"order": 999,
 		"action": {
 			"type": "call",
