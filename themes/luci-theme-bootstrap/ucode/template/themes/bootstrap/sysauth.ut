@@ -9,7 +9,7 @@
 	<form method="post" class="cbi-map">
 		<div class="cbi-section">
 			<div class="cbi-section-node">
-				<div class="cbi-value">
+				<div class="cbi-value" style="display:none">
 					<label class="cbi-value-title" for="luci_username">{{ _('Username') }}</label>
 					<div class="cbi-value-field">
 						<input name="luci_username" id="luci_username" type="text" autocomplete="username" value="{{ entityencode(duser, true) }}">
