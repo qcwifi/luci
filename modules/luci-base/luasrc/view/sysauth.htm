@@ -14,19 +14,19 @@
 	<% end -%>
 
 	<div class="cbi-map">
-		<h2 name="content"><%:Authorization Required%></h2>
+		<h2 name="content"><%:初始密码(小写) ：password%></h2>
 		<div class="cbi-map-descr">
-			<%:Please enter your username and password.%>
+			<%: %>
 		</div>
 		<div class="cbi-section"><div class="cbi-section-node">
-			<div class="cbi-value">
+			<div class="cbi-value" style="display:none">
 				<label class="cbi-value-title"><%:Username%></label>
 				<div class="cbi-value-field">
 					<input class="cbi-input-text" type="text" name="luci_username" value="<%=duser%>" />
 				</div>
 			</div>
 			<div class="cbi-value cbi-value-last">
-				<label class="cbi-value-title"><%:Password%></label>
+				<label class="cbi-value-title"><%:请输入密码%></label>
 				<div class="cbi-value-field">
 					<input class="cbi-input-text" type="password" name="luci_password" />
 				</div>
@@ -35,8 +35,7 @@
 	</div>
 
 	<div class="cbi-page-actions">
-		<input type="submit" value="<%:Login%>" class="btn cbi-button cbi-button-apply" />
-		<input type="reset" value="<%:Reset%>" class="btn cbi-button cbi-button-reset" />
+		<input type="submit" value="<%:登录%>" class="btn cbi-button cbi-button-apply" />
 	</div>
 </form>
 <script type="text/javascript">//<![CDATA[
